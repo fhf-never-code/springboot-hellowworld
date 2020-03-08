@@ -9,6 +9,7 @@ import java.util.Map;
 public class MyControllor {
     @GetMapping("/data")
         public Map get(){
-            return Map.of("name","y.f.li");
+            return Map.of("name","y.f");
+
         }
 }
