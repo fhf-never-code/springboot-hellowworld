@@ -1,0 +1,5 @@
+2020-03-07 23:30:34.208  INFO 14520 --- [main] c.e.s.service.UserServiceTest            : Starting UserServiceTest on DESKTOP-IN6OGR9 with PID 14520 (started by HASEE in E:\Idea\springboot-hellowworld)
+2020-03-07 23:30:34.216 DEBUG 14520 --- [main] c.e.s.service.UserServiceTest            : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-07 23:30:34.217  INFO 14520 --- [main] c.e.s.service.UserServiceTest            : No active profile set, falling back to default profiles: default
+2020-03-07 23:30:36.540  INFO 14520 --- [main] c.e.s.service.UserServiceTest            : Started UserServiceTest in 2.898 seconds (JVM running for 4.532)
+2020-03-07 23:30:37.118 DEBUG 14520 --- [main] c.e.s.service.UserService                : 日志对象输出一个变量一个变量{}一个变量
