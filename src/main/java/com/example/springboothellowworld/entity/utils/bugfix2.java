@@ -7,6 +7,7 @@ public class bugfix2 {
     public void sbumit(){}
     //增加注解
     public void sbumit2(){
+        //创建第三个分支
     }
 }
 
