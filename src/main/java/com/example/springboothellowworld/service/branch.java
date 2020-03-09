@@ -5,8 +5,9 @@ public class branch {
         int x = 10;
         int y = 10/0;
         int z = y + 200;
+        int zz = z*2;
     }
     public  void get(){
-
+        System.out.println("yes");
     }
 }
