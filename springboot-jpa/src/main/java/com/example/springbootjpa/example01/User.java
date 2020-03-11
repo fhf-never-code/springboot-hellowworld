@@ -16,7 +16,7 @@ public class User {
 //  @GeneratedValue(strategy =  GenerationType.IDENTITY)//自增长 但是设置完了UUID不需要一个自增长的唯一标识码（主键 所以去掉括号内容）
     @GeneratedValue//通过该注解由Hibernet生成
     @Column(length = 16)
-    private UUID id;
+    private UUID id;//生成主键
     private String name;
     private LocalDate birthday;
     @Column(columnDefinition = "timestamp default current_timestamp",

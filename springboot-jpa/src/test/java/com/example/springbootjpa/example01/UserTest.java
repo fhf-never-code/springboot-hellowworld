@@ -15,11 +15,10 @@ import static org.junit.jupiter.api.Assertions.*;
 @Slf4j
 @SpringBootTest
 @Transactional//事务 往数据库里的操作所使用的的注解
-@Rollback(value = false)//回滚 插入的数据测试结束会自动删除
+@Rollback(value = false)//关闭回滚 插入的数据测试结束会自动删除
 class UserTest {
     @Autowired//自动注入持久化管理器
     private EntityManager manager;
-
     @Test
     public  void test_addUser(){
         User user = new User();
