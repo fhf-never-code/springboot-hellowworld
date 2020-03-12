@@ -1,5 +1,6 @@
 package com.example.springbootjpa.example01;
 
+import com.example.springbootjpa.example01.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,6 @@ import javax.persistence.EntityManager;
 
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.*;
 @Slf4j
 @SpringBootTest
 @Transactional//事务 往数据库里的操作所使用的的注解
